@@ -49,7 +49,8 @@ public class test3 {
 
     public void bai2(){
         System.out.println("Bai 2");
-
+        System.out.println("Nhap vao 2 nut : ");
+        
         Scanner sc2 = new Scanner(System.in);
         String in = sc2.nextLine();
 
