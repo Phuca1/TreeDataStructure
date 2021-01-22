@@ -12,7 +12,7 @@ public class test3 {
         tree = new HashMap<String, Node>();
         tree2 = new HashMap<Integer, Node>();
 
-        sc = new Scanner(new File("/home/ntp/Tree/src/tree.txt"));
+        sc = new Scanner(new File("src/tree.txt"));
 
         Node zero = new Node(0, 0, "0");
         zero.nodeCon = new LinkedList<Integer>();
